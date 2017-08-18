@@ -16,7 +16,7 @@ public class Principal {
 		System.out.println(d2);
 		
 		
-		
+		System.out.println(a1.getIdade());
 		
 		
 
