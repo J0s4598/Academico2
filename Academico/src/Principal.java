@@ -15,8 +15,7 @@ public class Principal {
 		System.out.println(a2.imprimirAluno());
 		System.out.println(d2);
 		
-		System.out.println(a1.getNome());
-		System.out.println(a1.getIdade());
+
 		
 		
 
