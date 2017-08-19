@@ -58,6 +58,20 @@ public class Turma {
 	public void adicionarAluno(Aluno aluno){
 		this.aluno.add(aluno);
 	}
+	
+	
+	public String ListarAluno(){
+		String retorno = "";
+		if (this.aluno.size() ==0){
+			retorno = "Nenhum aluno registrado na turma!";
+		}else{
+		//navegar pela estrutura da aluno
+		for (int i = 0; i < this.aluno.size(); i++) {
+			retorno = retorno + "Nome: " + this.aluno.get(i).getNome() + "\n";			
+			}
+		}
+		return retorno;
+	}
 
 	
 	
